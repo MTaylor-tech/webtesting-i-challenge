@@ -1,5 +1,11 @@
 function succeed(item) {
-  return { ...item };
+  let newItem = {...item};
+  if (item.enhancement === 20) {
+    return newItem;
+  } else {
+    newItem.enhancement++;
+    return newItem;
+  }
 }
 
 function fail(item) {
