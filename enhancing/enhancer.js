@@ -36,7 +36,13 @@ function repair(item) {
 }
 
 function get(item) {
-  return { ...item };
+  let newItem = { ...item };
+  if (item.enhancement===0) {
+    return newItem;
+  } else {
+    newItem.name = `[+${item.enhancement}] ${item.name}`;
+    return newItem;
+  }
 }
 
 module.exports = {

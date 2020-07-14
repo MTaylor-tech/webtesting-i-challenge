@@ -98,6 +98,13 @@ describe("item enhancer unit tests", ()=>{
     newItem = enhancer.get(test_items[3]);
     expect(newItem.name).toBe("[+17] Mid-High Item 2");
     newItem = enhancer.get(test_items[4]);
-    expect(newItem.name).toBe("[+20] High item");
+    expect(newItem.name).toBe("[+20] High Item");
+  });
+  it("get the correct name without modifying item", ()=> {
+    const oldItem = test_items[4];
+    const newItem = enhancer.get(oldItem);
+    expect(newItem.name).toBe("[+20] High Item");
+    expect(oldItem.name).toBe("High Item");
+    expect(oldItem).toEqual(test_items[4]);
   });
 });
