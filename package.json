@@ -1,15 +1,16 @@
 {
   "name": "webtesting-i-challenge",
   "version": "1.0.0",
-  "description": "In this project, you will demonstrate proficiency by writing unit tests and production code to satisfy the _Minimum Viable Product_ described below.",
+  "description": "",
   "main": "index.js",
   "dependencies": {
+  },
+  "devDependencies": {
     "jest": "^26.1.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "jest",
-    "test:watch": "jest watch",
+    "test:watch": "jest watch"
   },
   "repository": {
     "type": "git",
