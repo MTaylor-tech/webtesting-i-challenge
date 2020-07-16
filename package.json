@@ -1,0 +1,25 @@
+{
+  "name": "webtesting-i-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTaylor-tech/webtesting-i-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MTaylor-tech/webtesting-i-challenge/issues"
+  },
+  "homepage": "https://github.com/MTaylor-tech/webtesting-i-challenge#readme"
+}
